@@ -8,6 +8,7 @@ class App < Sinatra::Base
 	  erb :hello
 	end
   
-  get '/date'
+  get '/date' do
+  end
 
 end
